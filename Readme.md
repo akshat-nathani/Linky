@@ -23,9 +23,9 @@ Create a custom-named link: `https://abcd.xyz/my-form => Redirects to a Google F
 - [ ]  **QR Code Generation**: Automatic generation of QR codes for each shortened links.
 - [ ]  **User-Friendly Interface**: Simple and intuitive web interface for managing redirects.
 - [ ]  **Secure Redirects**: Ensure safe redirects with validation and monitoring.
-- [ ]  **Analytics**
-- [ ]  **Dynamic Routing**
 - [ ]  **Administration Panel**: Centralized interface for administrators or authorized users to manage various aspects of the website.
+- [ ]  **Analytics**: overall traffic
+- [ ]  **Dynamic Routing**
 - [ ]  **Testing**
 
 
