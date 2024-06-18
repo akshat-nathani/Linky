@@ -26,7 +26,6 @@ Create a custom-named link: `https://abcd.xyz/my-form => Redirects to a Google F
 - [ ]  **Administration Panel**: Centralized interface for administrators or authorized users to manage various aspects of the website.
 - [ ]  **Analytics**: overall traffic
 - [ ]  **Dynamic Routing**
-- [ ]  **Testing**
 
 
 ## Getting Started
