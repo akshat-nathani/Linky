@@ -23,6 +23,11 @@ Create a custom-named link: `https://abcd.xyz/my-form => Redirects to a Google F
 - [ ]  **QR Code Generation**: Automatic generation of QR codes for each shortened links.
 - [ ]  **User-Friendly Interface**: Simple and intuitive web interface for managing redirects.
 - [ ]  **Secure Redirects**: Ensure safe redirects with validation and monitoring.
+- [ ]  **Analytics**
+- [ ]  **Dynamic Routing**
+- [ ]  **Administration Panel**: Centralized interface for administrators or authorized users to manage various aspects of the website.
+- [ ]  **Testing**
+
 
 ## Getting Started
 Follow these steps to set up the project on your local machine and start creating custom-named redirects.
@@ -62,14 +67,19 @@ Before you begin, ensure you have the following:
 # Deployment
 
 To deploy Linky in a production environment, use Docker:
-1. **Run Docker Compose**
+1. **First time set up**
 - Execute the following command in the root directory of the project (before starting the frontend, ensure Docker is running to manage dependencies effectively): 
   ```bash
   cd backend
-  docker compose up -d
-2. **Deploy Frontend**
+  docker network create web
+2. **Run Docker Compose**
+  ```bash
+  cd backend
+  docker compose up --build
+3. **Deploy Frontend**
 - You can deploy the frontend anywhere and configure it to point to the backend URL for link management.
-- **Note** - Always run the docker first instead of frontend
+- **Note** - Always run the docker first instead of frontend and then stop the containers after use to prevent them from running in background.
+             
 
 # Contribution
 
