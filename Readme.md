@@ -92,6 +92,7 @@ Contributions are always welcome!To contribute -
 - Discuss your ideas or the issue you plan to address. You can find open issues in the [Issues](https://github.com/MicrosoftStudentChapter/Linky/issues) section. Comment on the issue to get it assigned to you.
 - Implement your changes or fixes then commit your changes.
   ```bash
+  git add .
   git commit -m "feature XYZ implemented"
 - **Push** your changes to your fork.
     ```bash
